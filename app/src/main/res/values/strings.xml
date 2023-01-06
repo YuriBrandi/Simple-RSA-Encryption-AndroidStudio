@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EncyptionExample</string>
+    <string name="encrypt_btn_txt">Encrypt</string>
+    <string name="decrypt_btn_txt">Decrypt</string>
+    <string name="inputText_hint">Insert text to encrypt...</string>
+</resources>
