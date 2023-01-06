@@ -8,7 +8,7 @@ Android studio + Physical/Virtual Android Device with *API level 26* (Android 8.
 - Inlcudes a simple Main Layout and a MainActivity written in Kotlin.
 - The Key Pair is generated at every startup.
 
-![cutVideo2(1)](https://user-images.githubusercontent.com/52039988/211099614-d2ffb62e-25dd-4c72-b24f-b4747a3dfc70.gif)
+<img src="https://user-images.githubusercontent.com/52039988/211099614-d2ffb62e-25dd-4c72-b24f-b4747a3dfc70.gif" alt="VideoDemonstration" width="400"/>
 
 
 ## About Asymmetric Key Encryption
