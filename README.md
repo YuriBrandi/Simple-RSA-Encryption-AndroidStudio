@@ -11,7 +11,7 @@ Android studio + Physical/Virtual Android Device with *API level 26* (Android 8.
 ## About Asymmetric Key Encryption
 ![KeyEncrypScheme](https://upload.wikimedia.org/wikipedia/commons/1/1e/Public_key_signing.svg)
 
-## Usage for end-to-end encryption (e2ee) messaging
+## Usage for end-to-end encryption (E2EE) messaging
 Since
 > End-to-end encryption is intended to prevent data being read or secretly modified, other than by the true sender and recipient(s). The messages are encrypted by the sender but the third party does not have a means to decrypt them, and stores them encrypted. The recipients retrieve the encrypted data and decrypt it themselves.<br><br>
 Because no third parties can decipher the data being communicated or stored, for example, companies that provide end-to-end encryption are unable to hand over texts of their customers' messages to the authorities.
@@ -25,7 +25,7 @@ The clients generate a Key Pair, **store the Private Key locally** (e.g.: using 
 1. When Bob wants to send a message to Alice, he retrieves Alice's Public Key from the DB and uses it to **encrypt** his message.
 2. The **encrpted** message is stored on the server.
 3. Alice gets her message and uses **her Private Key** (stored locally) to **decrypt** it.
-4. The decrypted message can also be stored locally like some already existing *e2ee* messaging services do.
+4. The decrypted message can also be stored locally like some already existing *E2EE* messaging services do.
 
 ## License
 This software is distributed under the [MIT license](LICENSE.md).
