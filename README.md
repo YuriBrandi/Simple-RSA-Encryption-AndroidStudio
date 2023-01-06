@@ -25,7 +25,7 @@ The clients generate a Key Pair, **store the Private Key locally** (e.g.: using 
 1. When Bob wants to send a message to Alice, he retrieves Alice's Public Key from the DB and uses it to **encrypt** his message.
 2. The **encrpted** message is stored on the server.
 3. Alice gets her message and uses **her Private Key** (stored locally) to **decrypt** it.
-4. The decrypted message can also be stored locally like some already existing *E2EE* messaging services do.
+4. The decrypted message can also be stored locally like some already-existing *E2EE* messaging services do.
 
 ## License
 This software is distributed under the [MIT license](LICENSE.md).
