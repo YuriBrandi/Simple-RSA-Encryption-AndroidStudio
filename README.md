@@ -23,7 +23,7 @@ Because no third parties can decipher the data being communicated or stored, for
 
 , you could create a messaging system in which the ecnrypted messages are stored on a *Data Base*.
 
-The clients generate a Key Pair, **store the Private Key locally** (e.g.: using [SharedPreferences](https://developer.android.com/reference/kotlin/android/content/SharedPreferences)) and **upload the Public Key** to a remote Data Base (*same or different to the messages one*).
+The clients generate a Key Pair, **store the Private Key locally** (e.g.: using [KeyStore](https://developer.android.com/training/articles/keystore)) and **upload the Public Key** to a remote Data Base (*same or different to the messages one*).
 
 1. When Bob wants to send a message to Alice, he retrieves Alice's Public Key from the DB and uses it to **encrypt** his message.
 2. The **encrpted** message is stored on the server.
